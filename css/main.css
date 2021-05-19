@@ -86,28 +86,84 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   /* General Styles */
+
+   html {
+     font-size: 16px;
+   }
+
+   body {
+     font-family: 'Open Sans', sans-serif;
+     font-size: 1em;
+   }
+
+   ul,
+   ol {
+     list-style: none;
+   }
+
+   a {
+     color: #e2e3ed;
+    text-decoration: none;
+   }
+
+   h2 {
+     font-family: 'Poppins', sans-serif;
+     font-size: 2.25em;
+   }
+
+   h3,
+   h4 {
+     font-family: 'Poppins', sans-serif;
+     font-size: 1.875em;
+   }
+
+   p {
+     line-height: 1.5em;
+   }
+
+   img {
+
+   }
+
+   figure {
+
+   }
+
+   address {
+    font-style: normal;
+   }
+
+   .content-wrapper{
+
+   }
+
+
+   .content-wrapper {
+     width: 90%;
+     margin: 50px 0;
+   }
 
    /* -------------- Base Header - Footer Styles -------------*/
 
    header,
-   footer{
+   footer {
      display: flex;
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
-  }
+   }
 
-  header {
-    padding: 15px 0;
-  }
+   header {
+     padding: 15px 0;
+   }
 
    header .content-wrapper {
+     margin: 0;
      display: flex;
-     justify-content:center;
+     justify-content: center;
      align-items: center;
      flex-flow: row wrap;
-     width: 100%;
-     margin: 0;
    }
 
    .header-divider {
@@ -117,7 +173,7 @@ textarea {
    }
 
    header nav {
-     display:flex;
+     display: flex;
      justify-content: space-around;
      align-items: center;
      flex-flow: row wrap;
@@ -138,7 +194,7 @@ textarea {
      margin: 0;
    }
 
-   footer .content-wrapper{
+   footer .content-wrapper {
      width: 55%;
      margin: 50px 0;
    }
@@ -516,8 +572,7 @@ textarea {
           width: 60%;
         }
 
-        /*Aside*/
-
+        /* Aside */
         aside .content-wrapper {
           justify-content: space-around;
         }
@@ -527,18 +582,17 @@ textarea {
           width: 30%;
         }
 
-        /*Features*/
+        /* Features */
 
-        .features h2{
+        .features h2 {
           width: 90%;
         }
 
         .features article {
-          flex-basis: 30%;
+          flex-basis: 33%;
         }
 
-        /*Reviews*/
-
+        /* Reviews */
         .reviews article div {
           width: 42%;
         }
